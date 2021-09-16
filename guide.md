@@ -40,3 +40,25 @@
   #function pointer
   --It is a special type of pointers that points to the function present in the program
 ---it is as simple as pointer + function = this !! 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+###Smart pointer
+ -As the roll of the pointer ets over it automatically deletes that and there is no garbage collector
+ -C++ also doesn't internally contains / understands garbage collector
+
+###Different types of smart pointers
+ -Unique pointer - this pointer will have unique adress and cannot share the adress with any pointer
+
+ -shared pointer- This is the pointer that has many of the adresseer located at the same adress of a pointer
+     ----use_count tells the number of pointers connected to thsis pointers adress
+
+
+ -Weak pointer - It is like a watcher (expired function tells us about that no pointer in the whole program is pointing to any of the pointer )
+ ifyes -> true/false (boolean);
+
+
+
+
