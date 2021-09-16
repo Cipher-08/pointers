@@ -1,5 +1,5 @@
-# pointers
-#The memory of a process is bbasically divided into two major parts -stack -heap
+# All About Pointers
+##The memory of a process is bbasically divided into two major parts -stack -heap
 
 #Stack works simply by the calling of a function and is a linear memory
 
